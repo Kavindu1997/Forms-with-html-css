@@ -49,3 +49,27 @@ input:checked+label[for="female"]{
 }
 
 /* Checkbox Styles */
+input[type="checkbox"]{
+    opacity: 0;
+    width: 0;
+    margin: 0;
+}
+
+label[for="spider-man"],label[for="super-man"],label[for="hulk"],label[for="cat-woman"],label[for="captain-america"]{
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 26px;
+    background: url(images/checks.png) no-repeat;
+    background-position: 0 -98px;
+    line-height: 24px;
+    cursor:pointer;
+}
+
+input:checked+label[for="spider-man"],
+input:checked+label[for="super-man"],
+input:checked+label[for="hulk"],
+input:checked+label[for="cat-woman"],
+input:checked+label[for="captain-america"]{
+    background-position: 0 -65px;
+    color: #ce1010;
+}
