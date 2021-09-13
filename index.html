@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Marvel Studio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img src="Marvel-logo.jpg" />
+    </header>
+    <form>
+      <!-- Gender -->
+      <p>You are a...</p>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label><br/>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+
+      <!-- Interests -->
+      <p>Choose your Marvel...</p>
+      <input type="checkbox" id="spider-man" />
+      <label for="spider-man">Spider Man</label><br/>
+      <input type="checkbox" id="super-man" />
+      <label for="super-man">Super Man</label><br/>
+      <input type="checkbox" id="hulk" />
+      <label for="hulk">Hulk</label><br/>
+      <input type="checkbox" id="cat-woman" />
+      <label for="cat-woman">Cat Woman</label><br/>
+      <input type="checkbox" id="captain-america" />
+      <label for="captain-america">Captain America</label>
+
+      <!-- Contact details -->
+      <fieldset>
+        <legend>Contact Info</legend>
+        <input type="email" placeholder="Email" required />
+        <span class="tick"></span>
+        <input type="telephone" placeholder="Phone number" required />
+        <span class="tick"></span>
+      </fieldset>
+      <!-- Preferred -->
+      <p>How would you like to be contacted?</p>
+      <select>
+        <option>By email</option>
+        <option>By telephone</option>
+      </select>
+      <input type="submit" value="Become a Ninja" />
+    </form>
+  </body>
+</html>
